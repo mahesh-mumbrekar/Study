@@ -1,0 +1,14 @@
+>>> file=open("dictionaries.txt","r")
+>>> content=file.read()
+>>> print(content)
+d={"name":"steve","surname":"smith","middle name":"john"}
+d["name"]
+print(d["name"])
+#it will give the output 'steve   '
+>>> file.seek(0)
+0
+>>> content=file.readlines()
+>>> print(content)
+['d={"name":"steve","surname":"smith","middle name":"john"}\n', 'd["name"]\n', 'print(d["name"])\n', "#it will give the output 'steve   '"]
+>>> #we use file.readlines to save the content in the file in list formaat
+... #plus we use file.seek(0)to start the content from first line

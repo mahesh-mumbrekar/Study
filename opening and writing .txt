@@ -1,0 +1,16 @@
+>>> file=open("example.txt","w")
+>>> file.write("hello")
+5
+>>> file.close()
+>>> file=open("example.txt","w")
+>>> file.write("hello")
+5
+>>> file.write("brother")
+7
+>>> file.close()
+>>> file=open("example.txt","w")
+>>> file.write("hello\n")
+6
+>>> file.write("brother")
+7
+>>> file.close()

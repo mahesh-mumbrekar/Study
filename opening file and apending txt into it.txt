@@ -1,0 +1,9 @@
+>>> file=open("example.txt","w")
+>>> file.write("hello")
+5
+>>> fil=open("example.txt","w")
+>>> file.close()
+>>> file=open("example.txt","a")
+>>> file.write("guys")
+4
+>>> file.close()
